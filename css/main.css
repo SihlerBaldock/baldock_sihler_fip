@@ -162,12 +162,12 @@ body {
     line-height: 20px;
  }
 
- #hero-welcome {
+ #about-text1 {
     font-size: 14px;
     line-height: 22px;
  }
 
-  #hero-welcome p:first-of-type {
+  #about-text1 p:first-of-type {
     border-top: solid 3px #CF6666;
     margin-top: 15px;
     padding-top: 20px;
@@ -203,192 +203,52 @@ body {
     /* margin-left: 47px; */
     margin-right: 10px;
  }
- 
 
-/* 5. --- Why Couples Resort--- */
+ /* .5 --- About Section --- */
 
-#why-choose-us-nav {
-    padding-top: 20px;
- }
- 
- #why-choose-us-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
- }
- #why-choose-us-nav ul li {
-    margin-bottom: 15px;
- }
- 
- #why-choose-us-nav ul li a {
-   color: inherit;
-   padding: 5px;
- }
- 
- #why-choose-us-nav ul li a.selected {
-    border-left: #9a2018 solid 5px;
-  }
-
-/* first-of-type will match the first occurrence of a specified element, even if it doesn’t come absolutely first in the HTML. */
-#why-options section:first-of-type  {
-    border-top: solid 3px #CF6666;
-    margin-top: 15px;
-    padding-top: 40px;
-}
-
-.why-us-img {
-    font-size: 12px;
-}
-
-.why-us-img img {
-    float: left;
-    margin-right: 10px;
-}
-
-.why-us-img h4 {
-    font-size: 14px;
-    font-weight: normal;
-    margin-bottom: 20px;
-}
-
-.why-us-img a {
-    color: inherit;
-}
-
-#why-choose-us-bottom-nav {
-    background-color: #CF6666;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 30px;
- }
- 
- #why-choose-us-bottom-nav ol {
-    list-style-type: none;
-    margin: 0 0 0 0px;
-    padding: 0;
-    display: flex;
-    justify-content: space-evenly;
- }
- 
- #why-choose-us-bottom-nav ol li {
-    display: inline;
-    
- }
- 
- #why-choose-us-bottom-nav ol li a {
-    padding: 5px;
-    color: #fff;
-    text-decoration: underline;
+ #family-quote {
+   font-style: italic;
+   font-size: 12px;
  }
 
- /* 6. ---About & FAQ --- */
+ #about-pool {
+   padding-bottom: 20px;
+ }
 
-#about-text-group1 {
-    border-top: solid 3px #CF6666;
-    margin-top: 15px;
-    padding-top: 40px;
-}
+ /* .6 --- Facilities Section --- */
 
-.faq {
-    background-color: #f4f4f4;
+ #facilities {
+   background-color: #f4f4f4;
     padding-top: 35px;
     padding-bottom: 30px;
  }
- 
- .faq h2 {
-    font-size: 24px;
+
+ #facilities h2 {
+   font-size: 24px;
     border-bottom: solid 3px #CF6666;
     margin-bottom: 50px;
     padding-bottom: 40px;
  }
- 
- .faq h2 span {
+
+ #facilities h2 span {
     color: #9a2018;
     font-size: 16px;
  }
- 
- .faq-items {
-    margin-bottom: 16px;
+
+ .facilities-items {
+   margin-bottom: 16px;
  }
- 
- .faq-items h3 {
-    background: #e8e7e7;
+
+ .facilities-items h3 {
+   background: #e8e7e7;
     padding: 10px;
     font-size: 15px;
  }
- 
- .faq-items ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
- }
- 
- .faq-items li {
-    padding: 8px 0;
-    border-bottom: 1px solid #9a2018;
- }   
- 
- .faq-items a {
-    color: inherit;
-    font-size: 13px;
- }
- 
- .faq-list-con {
-    margin-top: 20px;
-    margin-bottom: 20px;
- }
- 
-/* 7. ---Contact Form--- */
 
-#contact-form-text p {
-    border-top: solid 3px #CF6666;
-    margin-top: 15px;
-    padding-top: 40px;
-    line-height: 22px;
-    font-size: 16px;
- }
- #contact-form-adress-left h3 {
-    font-size: 22px;
-    margin-bottom: 30px;
-    font-family: 'ceragr-regularuploaded_file', arial, sans-serif;
- }
-
- #contact-form-adress-left p {
-    line-height: 24px;
- }
-
- #contact-form-fields-right form {
-    display: flex;
-    flex-direction: column;
+ #facilities p {
+   padding-top: 10px;
  }
  
- #contact-form-fields-right input, textarea {
-    padding: 14px;
-    border: 2px solid #d6d6d6;
-    background-color: #f7f7f7;
-    border-radius: 5px;
-    margin-bottom: 30px;
-    font: inherit;
- }
- 
- #contact-form-fields-right textarea {
-    height: 250px;
- }
- 
- #contact-form-fields-right input[type="submit"] {
-    padding: 12px 28px;
-    background: #9a2018;
-    color: #fff;
-    border: none;
-    transition: all 200ms ease-in;
-    width: 150px;
-    align-self: flex-end;
- }
-
- #contact-form-fields-right input[type="submit"]:hover {
-    background-color: #626262;
-    border-radius: 0;
- }
 
 /* .8 --- Footer --- */
 
@@ -399,7 +259,6 @@ body {
     background-position: center;
     color: #fff;
     font-size: 12px;
-    margin-top: 40px;
     padding-bottom: 80px;
  }
 
