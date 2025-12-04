@@ -248,9 +248,92 @@ body {
  #facilities p {
    padding-top: 10px;
  }
+
+/* .7 --- Spa Card Section --- */
+
+#spa-card1 {
+   margin-top: 20px;
+   border-top: solid 3px #CF6666; 
+}
+
+#card1-img {
+   padding-top: 10px;
+   margin-top: 15px;
+}
+
+#card1-heading {
+   padding-top: 10px;
+   margin-top: 15px;
+}
+
+#card1-text {
+   padding-top: 10px;
+}
+
+#spa-cards-nav {
+    background-color: #CF6666;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+ }
+ 
+ #spa-cards-nav ol {
+    list-style-type: none;
+    margin: 0 0 0 0px;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ 
+ #spa-cards-nav ol li {
+    display: inline;
+    
+ }
+ 
+ #spa-cards-nav ol li a {
+    padding: 5px;
+    color: #fff;
+    text-decoration: underline;
+ }
+
+ /* .8 --- Additional Spa Info Section --- */
+
+ #additional-spa-info {
+   background-color: #f4f4f4;
+    padding-top: 35px;
+    padding-bottom: 30px;
+ }
+
+ #additional-spa-info h2 {
+   font-size: 24px;
+    border-bottom: solid 3px #CF6666;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+ }
+
+ #additional-spa-info h2 span {
+    color: #9a2018;
+    font-size: 16px;
+ }
+
+ .facilities-items {
+   margin-bottom: 16px;
+ }
+
+ .facilities-items h3 {
+   background: #e8e7e7;
+    padding: 10px;
+    font-size: 15px;
+ }
+
+ #spa-text2 {
+   padding-top: 10px;
+ }
+
+
  
 
-/* .8 --- Footer --- */
+/* .9 --- Footer --- */
 
 #main-footer {
     background-image: url(../images/footer-mob.jpg);
