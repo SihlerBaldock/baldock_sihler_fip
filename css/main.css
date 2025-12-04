@@ -330,10 +330,61 @@ body {
    padding-top: 10px;
  }
 
+/* .9 --- Room Styles Section --- */
+
+#room-styles-text p {
+   border-top: solid 3px #CF6666;
+   margin-top: 15px;
+   padding-top: 10px;
+}
+
+/* .10 Rooms Nav --- */
+
+#rooms-nav {
+    padding-top: 20px;
+ }
+ 
+ #rooms-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+ #rooms-nav ul li {
+    margin-bottom: 15px;
+ }
+ 
+ #rooms-nav ul li a {
+   color: inherit;
+   padding: 5px;
+ }
+ 
+ #rooms-nav ul li a.selected {
+    border-left: #9a2018 solid 5px;
+  }
+
+  /* .11 --- Chateaus Section --- */
+
+  #chateaus-text p:first-of-type {
+   border-top: solid 3px #CF6666;
+   margin-top: 15px;
+   padding-top: 10px;
+  }
+
+  #chateaus-button {
+   background-color: #9a2018;
+   padding: 10px;
+  }
+
+  #chateaus-button a {
+   padding-top: 15px;
+   font-style: italic;
+   color: white;
+   font-size: 16px;
+  }
 
  
 
-/* .9 --- Footer --- */
+/* .12 --- Footer --- */
 
 #main-footer {
     background-image: url(../images/footer-mob.jpg);
