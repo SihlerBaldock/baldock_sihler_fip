@@ -306,6 +306,22 @@ body {
    padding-top: 10px;
  }
 
+input[type="checkbox"]:checked + span::after {
+   content: "Subscribed✅";
+   color: green;
+   font-weight: bold;
+   margin-left: 10px;
+}
+
+#newsletter {
+   padding-bottom: 20px;
+   padding-left: 15px;
+}
+
+#newsletter-checkbox {
+   display: inline;
+}
+
 /* .7 --- Spa Card Section --- */
 
 #spa-card1 {
@@ -385,6 +401,10 @@ body {
 
  #spa-text2 {
    padding-top: 10px;
+ }
+
+ #facilities {
+   padding-bottom: 0;
  }
 
 /* .9 --- Room Styles Section --- */
