@@ -42,6 +42,14 @@
    overflow: hidden;
 } 
 
+#desktop-outline {
+   outline: 20px solid #333;
+   width: 1200px;
+   margin: 20px auto 20px auto;
+   border-radius: 10px;
+   overflow: hidden;
+}
+
 a {
     text-decoration: none;
     transition: all .5s ease-in-out;
@@ -117,6 +125,29 @@ body {
     transform: rotate(90deg);
  }
 
+ #logo-desk {
+   border-right: 2px solid #333;
+   margin: 10px;
+   margin-left: 0;
+   padding-right: 10px;
+ }
+
+#nav-list {
+   display: flex;
+   list-style: none;
+   padding-left: 0;
+   margin-top: 20px;
+   justify-content: space-evenly;
+}
+#nav-list li {
+   margin-right: 50px;
+}
+
+#main-header-desk {
+   padding-right: 0;
+   margin-right: 0;
+}
+
 /* 4. ---Main Hero Image--- */
 
 #main-hero {
@@ -142,6 +173,10 @@ body {
     height: 67px;
  }
 
+ #book-now-desk {
+   color: white;
+ }
+
  .book-now:hover {
     box-shadow: inset 0px -120px 0px 0px rgb(196, 28, 28);
  }
@@ -160,6 +195,28 @@ body {
     font-size: 12px;
     margin-bottom: 15px;
     line-height: 20px;
+ }
+
+ #hero-h2-desk {
+   position: absolute;
+   align-self: end;
+ }
+
+ #hero-h2-desk h2{
+   font-size: 16px;
+   background-color: rgb(255, 255, 255);
+   padding: 15px 15px;
+ }
+
+ #hero-h2-desk span{
+   color: #9a2018;
+   font-size: 12px;
+   margin-bottom: 15px;
+   line-height: 20px;
+ }
+
+ #spa-hero-img-desk {
+   position: relative;
  }
 
  #about-text1 {
@@ -382,9 +439,54 @@ body {
    font-size: 16px;
   }
 
- 
+  /* .12 --- Desktop Spa Services Section --- */
 
-/* .12 --- Footer --- */
+  #line1 p {
+   border-top: solid 3px #CF6666;
+   margin-top: 40px;
+   margin-bottom: 40px;
+  }
+
+  #card1-desk p {
+   font-size: 12px;
+   text-align: left;
+   margin-bottom: 0;
+   padding-top: 25px;
+   background-color: #efefef;
+  }
+
+  /* .13 --- Additional Spa Info Desktop Section --- */
+
+  #spa-info-desk h2 {
+   font-size: 20px;
+   line-height: 30px;
+  }
+
+  #spa-info-desk span {
+   font-size: 14px;
+   color:#9a2018;
+  }
+
+#line2 {
+   border-top: solid 3px #CF6666;
+   margin-top: 30px;
+}
+
+#spa-info-desk-items {
+   background-color: #f4f4f4;
+}
+
+.spa-items h3 {
+    background: #e8e7e7;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.spa-items p {
+   padding-top: 10px;
+}
+/* .14 --- Footer --- */
 
 #main-footer {
     background-image: url(../images/footer-mob.jpg);
@@ -397,7 +499,7 @@ body {
  }
 
  #main-footer-contact-info h3 {
-    font-size: 28px;
+    font-size: 24px;
     margin-top: 30px;
     margin-bottom: 10px;
     font-family: 'ceragr-regularuploaded_file', arial, sans-serif;
@@ -416,4 +518,63 @@ body {
     margin-top: 15px;
     padding-top: 30px;
     line-height: 22px;
+ }
+
+ /* .15 --- Desktop Footer --- */
+
+ #main-footer-desk {
+   background-image: url(../images/footer-desk.jpg);
+   color: #fff;
+   font-size: 12px;
+   padding-bottom: 60px;
+   padding-top: 20px;
+ }
+
+ #main-footer-desk h3 {
+   font-size: 28px;
+   margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'ceragr-regularuploaded_file', arial, sans-serif;
+ }
+
+ #main-footer-contact-info-desk p {
+   line-height: 22px;
+ }
+
+ #price-policy-desk {
+    border-top: solid 3px #CF6666;
+    margin-top: 15px;
+    padding-top: 30px;
+    line-height: 22px;
+    text-align: center;
+ }
+
+ #footer-nav ul {
+   list-style-type: none;
+   padding-top: 70px;
+   padding-left: 0;
+ }
+
+ #footer-nav ul li {
+   margin-bottom: 10px;
+
+ }
+
+ #footer-nav ul li a {
+   font-size: 16px;
+   color: white;
+ }
+
+ #book-now-footer {
+   margin-top:110px;
+   padding-left: 90px;
+   
+ }
+
+ #book-now-footer a {
+   background-color: #9a2018;
+   color: white;
+   font-size: 16px;
+   padding: 40px 50px 40px 50px;
+   font-style: italic;
  }
