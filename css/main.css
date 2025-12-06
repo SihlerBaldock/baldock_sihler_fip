@@ -75,6 +75,10 @@ body {
     font-size: 14px;
 }
 
+.hidden {
+   display: none;
+}
+
 .cr-red {
     color: #9a2018;
 }
@@ -126,17 +130,18 @@ body {
  }
 
  #logo-desk {
-   border-right: 2px solid #333;
+   border-right: 2px solid #626262;
    margin: 10px;
    margin-left: 0;
-   padding-right: 10px;
+   padding-right: 20px;
+   padding-top: 5px;
  }
 
 #nav-list {
    display: flex;
    list-style: none;
    padding-left: 0;
-   margin-top: 20px;
+   margin-top: 25px;
    justify-content: space-evenly;
 }
 #nav-list li {
@@ -161,20 +166,22 @@ body {
 .book-now {
     background-color: #9a2018;
     color: #fff;
-    font-size: 16px;
-    transition: background-color 500ms ease-in-out;
     display: flex;
     justify-content: center;
     align-items: center;
     font-style: italic;
-    transition:all 1s ease;
     cursor: pointer;
-    grid-row: 1/2;
     height: 67px;
+    font-size: 16px;
+ }
+
+ #book-now-header {
+   grid-column: 11/14;
  }
 
  #book-now-desk {
    color: white;
+   padding-right: 10px;
  }
 
  .book-now:hover {
@@ -324,18 +331,20 @@ input[type="checkbox"]:checked + span::after {
 
 /* .7 --- Spa Card Section --- */
 
-#spa-card1 {
-   margin-top: 20px;
-   border-top: solid 3px #CF6666; 
+#line1-spa {
+   margin-top: 15px;
+}
+
+#line1-spa p {
+   border-top: solid 3px #CF6666;
+   grid-column: 1/-1;
 }
 
 #card1-img {
-   padding-top: 10px;
    margin-top: 15px;
 }
 
 #card1-heading {
-   padding-top: 10px;
    margin-top: 15px;
 }
 
